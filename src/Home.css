@@ -39,6 +39,16 @@
     margin-left: 10px ;
 }
 
+.searchInput {
+  border: none;
+  width: 70%;
+}
+
+.searchInput:focus {
+  outline: none;
+}
+
+
 .NavbarImg {
     width: 32px;
     height: 32px;
