@@ -6,21 +6,51 @@
     align-items: center;
     position: sticky;
     top: 0;
-}
-
-.NavbarLeft {
+  }
+  
+  .NavbarLeft {
     flex: 3;
-}
-
-.logo {
-    font-size: 24px;
+  }
+  
+  .logo {
+    font-size: 35px;
     margin-left: 20px;
     font-weight: bold;
     color: violet;
     cursor: pointer;
+  
+  }
+  
+  .NavbarCenter {
+    flex: 5;
+  }
 
+  .searchbar {
+    width: 55%;
+    height: 30px;
+    background-color: white;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
 }
 
-.NavbarCenter {
-    flex: 5;
+.searchIcon {
+    font-size: 20px !important;
+    margin-left: 10px ;
+}
+
+.NavbarImg {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+    cursor: pointer;
+    margin-left: 10px ;
+}
+
+.NavbarLinks {
+    margin-right: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    margin-left: 15px
 }
