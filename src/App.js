@@ -12,6 +12,7 @@ function App() {
         <Route path='about-page' element={<About />} />
       </Routes>
     </BrowserRouter>
+   
   )
 }
 export default App;
