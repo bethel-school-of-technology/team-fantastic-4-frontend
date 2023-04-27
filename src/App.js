@@ -1,7 +1,7 @@
-import React from 'react'
-import About from './About'
+import React from 'react';
 import Home from './Home';
-import { BrowserRouter, Routes, Route } from "react-routes-dom";
+import About from './About';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 
 function App() {
@@ -9,10 +9,10 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path='about-page' element={<About />} />
       </Routes>
     </BrowserRouter>
-    
-  );
+  )
 }
     
 export default App;
