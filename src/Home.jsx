@@ -1,6 +1,7 @@
-import React from "react";
-import { } from "@mui/icons-material"
-
+import React from 'react';
+// import ReactDOM from 'react-dom/client';
+import { Search } from "@mui/icons-material"
+import "./Home.css"
 
 function Home() {
     return (
@@ -18,6 +19,9 @@ function Home() {
         <div className="NavbarRight">
             <div className="NavbarLinks">
                 <span className="NabvarLinks">Homepage</span>
+                <span className='NavbarLinks'>About Us</span>
+                <span className='NavbarLinks'>Contact</span>
+                <span className='NavbarLinks'>Login</span>
             </div>
             <div className="NavbarIcons"></div>
         </div>
