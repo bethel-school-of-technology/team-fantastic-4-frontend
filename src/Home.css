@@ -1,7 +1,7 @@
 .NavbarContainer {
-    height: 50px;
+    height: 65px;
     width: 100%;
-    background-color: purple;
+    background-color: #9f769d;
     display: flex;
     align-items: center;
     position: sticky;
@@ -16,7 +16,7 @@
     font-size: 35px;
     margin-left: 20px;
     font-weight: bold;
-    color: violet;
+    color:purple;
     cursor: pointer;
   
   }
@@ -26,7 +26,7 @@
   }
 
   .searchbar {
-    width: 55%;
+    width: 65%;
     height: 30px;
     background-color: white;
     border-radius: 30px;
@@ -50,21 +50,39 @@
 
 
 .NavbarImg {
-    width: 32px;
-    height: 32px;
+    width: 50px;
+    height: 50px;
     border-radius: 50%;
     object-fit: cover;
     cursor: pointer;
     margin-left: 10px ;
 }
 
-.NavbarLinks {
+.nav-link {
     margin-right: 10px;
     font-size: 20px;
     cursor: pointer;
     margin-left: 15px;
-    color: violet;
+    color: purple;
   
     }
+
+    body {
+      background-color:  #dfd3d5;
+    }
+
+    h1 {
+      text-align: center;
+    }
+
+    h3 {
+      text-align: center;
+    }
+
+    p {
+      text-align: center;
+    }
+
+    
 
     
