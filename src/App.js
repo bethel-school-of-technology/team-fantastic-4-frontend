@@ -2,8 +2,9 @@ import React from 'react';
 import Home from './Home';
 import LogIn from './LogIn';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-// import CarouselFadeExample from './CarouselFadeExample';
+import CarouselFadeExample from './CarouselFadeExample';
 import AboutUs from './About';
+import ContactUs from './ContactUs';
 
 
 function App() {
@@ -11,10 +12,10 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Home />} />
-        {/* <Route index element={<h1 className='h1'>Welcome to our Site: Meet people, not profiles</h1>} /> */}
-        {/* <Route index element={<CarouselFadeExample />} /> */}
+          <Route index element={<CarouselFadeExample />} />    
         <Route path='about-us' element={<AboutUs />} />
         <Route path='login' element={<LogIn />} />
+        <Route path='contact-us' element={<ContactUs />} />
       </Routes>
     </BrowserRouter>
   )
