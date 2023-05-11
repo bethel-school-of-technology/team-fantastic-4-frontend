@@ -18,6 +18,7 @@ function App() {
         <Route path='contact-us' element={<ContactUs />} />
       </Routes>
     </BrowserRouter>
+   
   )
 }
 export default App;

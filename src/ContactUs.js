@@ -1,7 +1,6 @@
 import React from "react";
-import Container from 'react-bootstrap/Container';
-import { Row, Col } from "react-bootstrap";
-
+import Footer from "./Footer";
+import { Row, Col, Container} from "react-bootstrap"
 
 
 function ContactUs() {
@@ -21,7 +20,7 @@ function ContactUs() {
             <br></br>
             
             <p>
-              
+              <strong>Phone: 530-777-6262</strong>
             </p>
           </address>
           <p>Hi! We look forward to hearing from you!</p>
@@ -61,6 +60,8 @@ function ContactUs() {
           </form>
         </Col>
       </Row>
+
+      <Footer></Footer>
     </Container>
   );
 }
