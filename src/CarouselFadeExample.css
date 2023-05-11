@@ -1,0 +1,23 @@
+h1 {
+    text-align: justify;
+    font-size: 75px;
+    font-family: serif;
+    color: rgb(226, 43, 205);
+    top: auto;
+    background-color:rgb(176, 230, 182);
+    opacity: 0.8; 
+    width: 50%;
+}
+
+#top {
+    text-align: left;
+    font-size: x-large;
+    color: rgb(49, 0, 139);
+    background-color:rgb(176, 230, 182);
+    opacity: 0.8; 
+    width: 50%;
+}
+  .nav-link{
+    font-size: x-large;
+    color: rgb(49, 0, 139);
+}
