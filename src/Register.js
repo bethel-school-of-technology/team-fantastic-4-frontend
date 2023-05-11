@@ -1,4 +1,4 @@
-import './Signup.css';
+import './Register.css';
 import { useState } from 'react';
 
 function Register() {
@@ -18,6 +18,7 @@ function Register() {
   
 
   return (
+    <div className='register-background'>
     <div id="container">
     <form onSubmit={handleSubmit}>
     <label>Email: 
@@ -90,6 +91,7 @@ function Register() {
         <br></br>
         <label>Already have an account? <u>Login</u></label>
     </form>
+    </div>
     </div>
   )
 }

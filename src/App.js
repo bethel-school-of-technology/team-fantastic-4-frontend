@@ -5,6 +5,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import CarouselFadeExample from './CarouselFadeExample';
 import AboutUs from './About';
 import ContactUs from './ContactUs';
+import Register from './Register';
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
         <Route path='about-us' element={<AboutUs />} />
         <Route path='login' element={<LogIn />} />
         <Route path='contact-us' element={<ContactUs />} />
+        <Route path='register' element={<Register />} />
       </Routes>
     </BrowserRouter>
    

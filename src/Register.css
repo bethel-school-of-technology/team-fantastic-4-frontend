@@ -8,10 +8,6 @@ html {
   font-family: 'Noto Sans JP', sans-serif;
 }
 
-body {
-  margin: 0;
-  background-color: #329799;
-}
 
 #container {
     background-color: violet;
