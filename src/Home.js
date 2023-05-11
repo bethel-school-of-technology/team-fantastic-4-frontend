@@ -26,7 +26,7 @@ function Home() {
           <Nav className="nav-link">
             <Link to="/" className='nav-link'>Home</Link>
             <Link to="/about-us" className="nav-link">About Us</Link>
-            <Link to="/contact" className="nav-link">Contact</Link>
+            <Link to="/contact-us" className="nav-link">Contact Us</Link>
             <Link to="/login" className="nav-link">Log In</Link>
             <Link to="/create-account" className="nav-link">Create Account</Link>
           </Nav>      
