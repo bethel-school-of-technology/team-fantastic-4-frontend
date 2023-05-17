@@ -6,10 +6,12 @@ import CarouselFadeExample from './CarouselFadeExample';
 import AboutUs from './About';
 import ContactUs from './ContactUs';
 import Register from './Register';
-
+import Footer from './Footer';
 
 function App() {
   return (
+    <div className='page-container'>
+    <div className="content-wrap">
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Home />} />
@@ -20,7 +22,13 @@ function App() {
         <Route path='register' element={<Register />} />
       </Routes>
     </BrowserRouter>
+    </div>
+   <Footer />
+   </div>
+   
    
   )
+  
 }
+
 export default App;

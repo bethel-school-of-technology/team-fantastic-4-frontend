@@ -1,11 +1,12 @@
 import React from "react";
-import Footer from "./Footer";
 import { Row, Col, Container} from "react-bootstrap"
+import Home from "./Home";
 
 
 function ContactUs() {
   return (
     <Container>
+      <Home></Home>
       <Row classname="mb-5 mt-3">
         <Col lg='8'>
           <h1 className="display-4 mb-4">Contact Us</h1>
@@ -61,9 +62,11 @@ function ContactUs() {
         </Col>
       </Row>
 
-      <Footer></Footer>
+      
     </Container>
+    
   );
+ 
 }
 
 export default ContactUs;

@@ -1,9 +1,12 @@
 import { Container, Image, Row } from "react-bootstrap"
 import "./About.css"
+import Home from "./Home"
+
 
 function AboutUs() {
     return (
       <Container>
+        <Home></Home>
       <Row>
       {/* <Col xs={12} md={8}> */}
           <div>
@@ -20,6 +23,7 @@ function AboutUs() {
           Our goal is to open up the possibilities of something great.
         </p>
         </Row>
+        
     </Container>
     )
   }

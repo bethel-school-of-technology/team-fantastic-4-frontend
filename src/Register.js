@@ -1,6 +1,7 @@
 import './Register.css';
 import { useState } from 'react';
 
+
 function Register() {
   const [inputs, setInputs] = useState({});
 
@@ -18,6 +19,7 @@ function Register() {
   
 
   return (
+    
     <div className='register-background'>
     <div id="container">
     <form onSubmit={handleSubmit}>
