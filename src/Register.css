@@ -80,7 +80,7 @@ left: 50%;
   flex: 1;
 }
 
-button {
+.carouselBtn {
   font: inherit;
   background-color: #240370;
   color: white;
@@ -90,8 +90,8 @@ button {
   cursor: pointer;
 }
 
-button:hover,
-button:active {
+.carouselBtn:hover,
+.carouselBtn:active {
   background-color: #33059e;
   border-color: #33059e;
 }

@@ -6,6 +6,7 @@ import CarouselFadeExample from './CarouselFadeExample';
 import AboutUs from './About';
 import ContactUs from './ContactUs';
 import Register from './Register';
+import EventCalendar from './EventCalendar';
 import Footer from './Footer';
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
         <Route path='login' element={<LogIn />} />
         <Route path='contact-us' element={<ContactUs />} />
         <Route path='register' element={<Register />} />
+        <Route path='event-calendar' element={<EventCalendar />} />
       </Routes>
     </BrowserRouter>
     </div>

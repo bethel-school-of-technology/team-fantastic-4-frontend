@@ -1,18 +1,35 @@
 import { Button, Container } from "react-bootstrap"
-
-// import Navigation from "./Navigation"
-// import Container from 'react-bootstrap/Container';
-// import Col from 'react-bootstrap/Col';
 import Form from 'react-bootstrap/Form';
 // import Row from 'react-bootstrap/Row';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Home from "./Home";
+import { useState } from 'react';
+import axios from 'axios';
 
  function LogIn() {
+ const [inputs, setInputs] = useState({});
+
+  const handleChange = (event) => {
+    const name = event.target.name;
+    const value = event.target.value;
+    setInputs(values => ({...values, [name]: value}))
+  }
+
+  const handleSubmit = (event) => {
+    event.preventDefault();
+    console.log(inputs);
+
+    axios.post('http://localhost:3000/login', inputs)
+        .then((response) => {
+          alert('login succesful')
+        
+        });
+  }
+
 return (
   <Container>
-  {/* <Navigation></Navigation> */}
    <Home></Home>
+   
   {/* <div className="login">
     <div className="loginWrapper">
     <div className="loginLeft">
@@ -27,10 +44,14 @@ return (
         <span className="loginForgot">Forgot Password?</span>
         <button className="loginRegisterButton">Create a New Account</button> */}
     
-        <Form>
+        
+      
+      <Form onSubmit={handleSubmit} >
       <Form.Group className="mb-3" controlId="formBasicEmail">
         <Form.Label>Email address</Form.Label>
-        <Form.Control type="email" placeholder="Enter email" />
+        <Form.Control type="email" name="email" placeholder="Enter email"
+          onChange={handleChange}
+          required />
         <Form.Text className="text-muted">
           We'll never share your email with anyone else.
         </Form.Text>
@@ -38,7 +59,7 @@ return (
 
       <Form.Group className="mb-3" controlId="formBasicPassword">
         <Form.Label>Password</Form.Label>
-        <Form.Control type="password" placeholder="Password" />
+        <Form.Control onChange={handleChange} type="password" name="password" placeholder="Password" />
       </Form.Group>
       <Form.Group className="mb-3" controlId="formBasicCheckbox">
         <Form.Check type="checkbox" label="Check me out" />

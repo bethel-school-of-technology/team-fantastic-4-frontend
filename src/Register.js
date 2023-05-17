@@ -1,5 +1,6 @@
 import './Register.css';
 import { useState } from 'react';
+import axios from 'axios';
 
 
 function Register() {
@@ -13,7 +14,13 @@ function Register() {
 
   const handleSubmit = (event) => {
     event.preventDefault();
-    alert(inputs);
+    console.log(inputs);
+
+    axios.post('http://localhost:3000/users', inputs)
+        .then((response) => {
+          alert('registration complete')
+          console.log(response)
+        });
   }
 
   
@@ -25,19 +32,21 @@ function Register() {
     <form onSubmit={handleSubmit}>
     <label>Email: 
         <input 
-          type="text" 
-          name="Email" 
-          value={inputs.Email || ""} 
+          type="email" 
+          name="email" 
+          value={inputs.email || ""} 
           onChange={handleChange}
+          required
         />
         </label>
         <br></br>
         <label>Password: 
         <input 
-          type="" 
-          name="gender" 
-          value={inputs.gender || ""} 
+          type="password" 
+          name="password" 
+          value={inputs.password || ""} 
           onChange={handleChange}
+          required
         />
         </label>
         <br></br>
@@ -74,7 +83,7 @@ function Register() {
         <input 
           type="radio" 
           name="gender" 
-          value={inputs.gender || ""} 
+          value="male"
           onChange={handleChange}
         />
         </label>
@@ -83,7 +92,7 @@ function Register() {
         <input 
           type="radio" 
           name="gender" 
-          value={inputs.gender || ""} 
+          value="female"
           onChange={handleChange}
         />
         </label>

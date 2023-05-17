@@ -1,3 +1,13 @@
 {
-    "users": []
-   }
+  "users": [
+    {
+      "email": "jan.pevny@bethel.com",
+      "password": "$2a$10$.5SRpM0MKxoIeWoPMCAzduY6DRNt9taMRl03U.G2wBslOyN48ihAS",
+      "firstName": "Jan",
+      "lastName": "Pevny",
+      "age": "34",
+      "gender": "male",
+      "id": 1
+    }
+  ]
+}
