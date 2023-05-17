@@ -16,8 +16,7 @@ import { Stack } from 'react-bootstrap';
 function Home() {
     return (
         <>
-
-        <Navbar bg="primary" variant="dark">
+        <Navbar expand="lg" bg='primary'>
         {/* <Container> */}
          <div className="NavbarLeft"></div>
           <Navbar.Brand className="logo">Faithful Connections</Navbar.Brand>
@@ -29,8 +28,8 @@ function Home() {
             <Link to="/contact-us" className="nav-link">Contact Us</Link>
             <Link to="/login" className="nav-link">Log In</Link>
             <Link to="/register" className="nav-link">Create Account</Link>
+            <Link to="/event-calendar" className="nav-link">Event Calendar</Link>
           </Nav>      
-          
           <div className="NavbarCenter">
          <div className="searchbar">
          <Search className="searchIcon" />
@@ -38,21 +37,13 @@ function Home() {
          </div>
          </div> 
          </Container>
-      </Navbar> 
-                              
+      </Navbar>                         
              <> 
             <h3>Connect with other singles and zoom speed date.</h3><p>I am my beloved's, and His desire is toward me.
                       Song of Solomom 7:10</p><Stack gap={3} className="col-md-10 mx-auto mt-3">
-
                       </Stack></>
-                 
-                      </>       
-          
-        
+                      </>               
     )
 
 }
-
-
-
 export default Home;
