@@ -10,24 +10,18 @@ html {
 
 
 #container {
-    background-color: violet;
-    border-radius: 25px;
-    border: 4px solid lightgreen;
-    padding: 20px; 
-    
-    width: 200px;
-    height: 150px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    min-height: 100vh;
-
-    position: absolute;
-top: 50%;
-left: 50%;
-
-
+  background-color: violet;
+  border-radius: 25px;
+  border: 4px solid lightgreen;
+  padding: 20px; 
+  width: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  margin: 30px auto;
 }
 
 .app {
