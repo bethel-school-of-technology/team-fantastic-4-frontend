@@ -17,11 +17,12 @@ function ContactUs() {
         <Col lg='5' className="mb-5">
           <h3 className="color_sec py_4">Would you like to reach us?</h3>
           <address>
-            <strong>Email: contact@faithfulconnections.com</strong>
-            <br></br>
-            
             <p>
-              <strong>Phone: 530-777-6262</strong>
+            <strong>Email: contact@faithfulconnections.com</strong>
+            </p>
+            <br></br>
+            <p>
+            <strong>Phone: 530-777-6262</strong>
             </p>
           </address>
           <p>Hi! We look forward to hearing from you!</p>
