@@ -18,9 +18,9 @@ function AboutUs() {
         <p>
           <b>Faithful Connections</b> was designed with intentinal romantic based fellowship in mind. 
           We developed a balance where you can both meet a lot of people in a short amount of time and
-          maintain the quality time aspect to get to know them. o grow in connection with faith based
+          maintain the quality time aspect to get to know them. To grow in connection with faith based
           people. We know that relationships take risks but when you put God first, He will direct you.
-          Our goal is to open up the possibilities of something great.
+          Our goal is to open up the possibilities of something endless and special memories.
         </p>
         </Row>
         
