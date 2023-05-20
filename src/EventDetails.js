@@ -62,6 +62,7 @@ function EventDetails() {
         <div>
             <h2>A Night in Paris</h2>
             <h3>Take a foreign vacation in the dreamy city of Paris!</h3>
+            <div><p>You will leave this party feeling like you really spent 3 hours mingling in Paris!</p></div>
             <div></div>
 
             <div class="event-details-where">

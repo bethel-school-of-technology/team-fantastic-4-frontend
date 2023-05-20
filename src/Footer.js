@@ -1,5 +1,6 @@
 import React from 'react';
 import "./Footer.css"
+//import AppleIcon from '@mui/icons-material/Apple';
 
 const Footer = () => {
     return(
@@ -10,7 +11,7 @@ const Footer = () => {
                     <p className='col-sm'>
                         &copy;{new Date().getFullYear()} Faithful Connections | Owned and designed by Fantastic 4
                     </p>
-              
+                    
                 </div>
                
             </div>

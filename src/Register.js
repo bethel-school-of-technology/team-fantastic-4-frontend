@@ -3,6 +3,7 @@ import { useState } from 'react';
 import axios from 'axios';
 
 
+
 function Register() {
   const [inputs, setInputs] = useState({});
 
