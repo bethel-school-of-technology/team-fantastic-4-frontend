@@ -56,13 +56,16 @@ return (
           We'll never share your email with anyone else.
         </Form.Text>
       </Form.Group>
-
       <Form.Group className="mb-3" controlId="formBasicPassword">
         <Form.Label>Password</Form.Label>
         <Form.Control onChange={handleChange} type="password" name="password" placeholder="Password" />
+        <Form.Text className="text-muted">
+        Your password must be 8-20 characters long, contain letters and numbers,
+        and must not contain spaces, special characters, or emoji.
+        </Form.Text>
       </Form.Group>
       <Form.Group className="mb-3" controlId="formBasicCheckbox">
-        <Form.Check type="checkbox" label="Check me out" />
+        <Form.Check type="checkbox" label="Remember Me" />
       </Form.Group>
       <Button variant="primary" type="submit">Submit</Button>
     </Form>
