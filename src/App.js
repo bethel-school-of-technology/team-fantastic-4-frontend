@@ -7,7 +7,7 @@ import AboutUs from './About';
 import ContactUs from './ContactUs';
 import Register from './Register';
 import EventCalendar from './EventCalendar';
-// import LogOut from './LogOut';
+import LogOut from './LogOut';
 import Footer from './Footer';
 
 function App() {
@@ -24,7 +24,7 @@ function App() {
         <Route path='register' element={<Register />} />
         <Route path='event-calendar' element={<EventCalendar />} />
 
-        {/* <Route path='logout' element={<LogOut />} /> */
+        /* <Route path='logout' element={<LogOut />} /> */
       </Routes>
     </BrowserRouter>
     </div>
