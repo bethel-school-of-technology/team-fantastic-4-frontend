@@ -14,7 +14,6 @@ import axios from 'axios';
     const value = event.target.value;
     setInputs(values => ({...values, [name]: value}))
   }
-
   const handleSubmit = (event) => {
     event.preventDefault();
     console.log(inputs);
@@ -44,8 +43,6 @@ return (
         <span className="loginForgot">Forgot Password?</span>
         <button className="loginRegisterButton">Create a New Account</button> */}
     
-        
-      
       <Form onSubmit={handleSubmit} >
       <Form.Group className="mb-3" controlId="formBasicEmail">
         <Form.Label>Email address</Form.Label>
@@ -69,9 +66,6 @@ return (
       </Form.Group>
       <Button variant="primary" type="submit">Submit</Button>
     </Form>
-
-
-
            {/* <Form>
            <div className="loginLeft"></div>
            <Form.Group as={Row} className="mb-3" controlId="formPlaintextEmail">
@@ -99,5 +93,4 @@ return (
   
  )
  }
-
  export default LogIn

@@ -9,8 +9,6 @@ import Register from './Register';
 import EventCalendar from './EventCalendar';
 // import LogOut from './LogOut';
 
-
-
 function App() {
   return (
     <BrowserRouter>

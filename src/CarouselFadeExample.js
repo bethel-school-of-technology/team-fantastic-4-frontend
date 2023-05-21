@@ -4,8 +4,7 @@ import { Link } from "react-router-dom";
 import { Button } from 'react-bootstrap';
 
 function CarouselFadeExample() {
-  return (
-          
+  return (     
     <Carousel fade>
     <Carousel.Item>
       <img
@@ -35,5 +34,4 @@ function CarouselFadeExample() {
   </Carousel>
 );
 }
-
 export default CarouselFadeExample;

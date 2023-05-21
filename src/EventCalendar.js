@@ -9,7 +9,6 @@ import { Button} from 'react-bootstrap';
 import { LinkContainer } from 'react-router-bootstrap'; 
 import { Card } from 'react-bootstrap';
 
-
 function EventCalendar() {
     const [date, setDate] = useState(new Date());
     return (
@@ -85,17 +84,11 @@ function EventCalendar() {
       <Card.Footer className="text-light">1 days ago</Card.Footer>
       </Card.ImgOverlay>
     </Card> <br></br>
-
-
-
-
-
         
         {/* <img src="https://th.bing.com/th/id/OIP.FY-RiJPLp3MFiw0YEjqLRAHaCf?pid=ImgDet&rs=1" alt="" />
         <p className='text-center'>
             <span className='bold'>70s Throwback Disco Party </span>
             June 2nd 2023 @ 7pm pst. <br></br>
-
             <LinkContainer to="/details">
             <Button variant="primary">DETAILS</Button>
             </LinkContainer> */}
@@ -103,7 +96,6 @@ function EventCalendar() {
         {/* <p className='text-center'>
             <span className='bold'>Black Tie Event </span>
             June 16th 2023 @ 7pm pst. <br></br>
-
             <LinkContainer to="/details">
             <Button variant="primary">DETAILS</Button>
             </LinkContainer>
@@ -118,5 +110,4 @@ function EventCalendar() {
        </Container>
     );
   }
-  
   export default EventCalendar;
