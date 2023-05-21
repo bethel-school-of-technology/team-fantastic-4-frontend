@@ -23,7 +23,6 @@ function App() {
         {/* <Route path='logout' element={<LogOut />} /> */}
       </Routes>
     </BrowserRouter>
-   
   )
 }
 export default App;
