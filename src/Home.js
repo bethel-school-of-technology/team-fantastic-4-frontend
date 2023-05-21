@@ -16,7 +16,7 @@ import { Stack } from 'react-bootstrap';
 function Home() {
     return (
         <>
-        <Navbar expand="lg" bg='primary'>
+        <Navbar expand='lg' bg='primary'>
         {/* <Container> */}
          <div className="NavbarLeft"></div>
           <Navbar.Brand className="logo">Faithful Connections</Navbar.Brand>
@@ -29,6 +29,7 @@ function Home() {
             <Link to="/login" className="nav-link">Log In</Link>
             <Link to="/register" className="nav-link">Create Account</Link>
             <Link to="/event-calendar" className="nav-link">Event Calendar</Link>
+            
           </Nav>      
           <div className="NavbarCenter">
          <div className="searchbar">

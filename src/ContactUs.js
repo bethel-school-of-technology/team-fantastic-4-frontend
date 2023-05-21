@@ -1,11 +1,12 @@
 import React from "react";
-import Footer from "./Footer";
 import { Row, Col, Container} from "react-bootstrap"
+import Home from "./Home";
 
 
 function ContactUs() {
   return (
     <Container>
+      <Home></Home>
       <Row classname="mb-5 mt-3">
         <Col lg='8'>
           <h1 className="display-4 mb-4">Contact Us</h1>
@@ -16,11 +17,12 @@ function ContactUs() {
         <Col lg='5' className="mb-5">
           <h3 className="color_sec py_4">Would you like to reach us?</h3>
           <address>
-            <strong>Email: contact@faithfulconnections.com</strong>
-            <br></br>
-            
             <p>
-              <strong>Phone: 530-777-6262</strong>
+            <strong>Email: contact@faithfulconnections.com</strong>
+            </p>
+            <br></br>
+            <p>
+            <strong>Phone: 530-777-6262</strong>
             </p>
           </address>
           <p>Hi! We look forward to hearing from you!</p>
@@ -61,9 +63,11 @@ function ContactUs() {
         </Col>
       </Row>
 
-      <Footer></Footer>
+      
     </Container>
+    
   );
+ 
 }
 
 export default ContactUs;
