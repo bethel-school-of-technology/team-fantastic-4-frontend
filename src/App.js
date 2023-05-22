@@ -7,10 +7,8 @@ import AboutUs from './About';
 import ContactUs from './ContactUs';
 import Register from './Register';
 import EventCalendar from './EventCalendar';
-import EventCreate from './EventCreate'
-import EventDetails from './EventDetails';
+import EventCreate from './EventCreate';
 import Footer from './Footer';
-
 
 function App() {
   return (
@@ -19,7 +17,7 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Home />} />
-          <Route index element={<CarouselFadeExample />} />    
+        <Route index element={<CarouselFadeExample />} />    
         <Route path='about-us' element={<AboutUs />} />
         <Route path='login' element={<LogIn />} />
         <Route path='contact-us' element={<ContactUs />} />
@@ -33,7 +31,6 @@ function App() {
     </div>
    <Footer />
    </div>
-   
    
   )
   
