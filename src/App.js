@@ -8,6 +8,7 @@ import ContactUs from './ContactUs';
 import Register from './Register';
 import EventCalendar from './EventCalendar';
 import EventCreate from './EventCreate';
+import EventDetails from './EventDetails';
 import Footer from './Footer';
 
 function App() {
