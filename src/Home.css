@@ -1,4 +1,8 @@
-.navbarLeft {
+
+
+.Navbar {
+  width: 100%;
+  height: 50px;
   flex: 3;
 }
 
@@ -6,6 +10,7 @@
   font-size: 30px;
   margin-left: 20px;
   font-weight: bold;
+  font-family: serif;
   
 }
 
@@ -41,7 +46,7 @@
     cursor: pointer;
     margin-left: 15px;
     color: purple;
-  
+    font-family: serif;
     }
 
    body {

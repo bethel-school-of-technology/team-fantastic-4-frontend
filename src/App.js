@@ -8,14 +8,16 @@ import ContactUs from './ContactUs';
 import Register from './Register';
 import EventCalendar from './EventCalendar';
 import EventCreate from './EventCreate';
-
+import Footer from './Footer';
 
 function App() {
   return (
+    <div className='page-container'>
+    <div className="content-wrap">
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Home />} />
-          <Route index element={<CarouselFadeExample />} />    
+        <Route index element={<CarouselFadeExample />} />    
         <Route path='about-us' element={<AboutUs />} />
         <Route path='login' element={<LogIn />} />
         <Route path='contact-us' element={<ContactUs />} />
@@ -24,7 +26,12 @@ function App() {
         <Route path='event-create' element={<EventCreate />} />
       </Routes>
     </BrowserRouter>
+    </div>
+   <Footer />
+   </div>
    
   )
+  
 }
+
 export default App;
