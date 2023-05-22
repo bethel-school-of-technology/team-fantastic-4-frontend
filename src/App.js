@@ -24,8 +24,7 @@ function App() {
         <Route path='register' element={<Register />} />
         <Route path='event-calendar' element={<EventCalendar />} />
 
-        {/* <Route path='logout' element={<LogOut />} /> */
-      </Routes>
+       </Routes>
     </BrowserRouter>
     </div>
    <Footer />
