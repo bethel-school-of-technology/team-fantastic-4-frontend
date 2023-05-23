@@ -8,6 +8,29 @@
       "age": "34",
       "gender": "male",
       "id": 1
+    },
+    {
+      "email": "test@gmail.com",
+      "password": "$2a$10$MggNuV5A/sDbMI2mDdHqL.iRPk1vUvm1l6XhwCtCB5qdl7HxvZnGe",
+      "firstName": "firstTest",
+      "lastName": "lastTest",
+      "age": "22",
+      "gender": "male",
+      "id": 2
+    }
+  ],
+  "events": [
+    {
+      "title": "Event n. 1",
+      "date": "2023-05-27",
+      "id": 1
+    },
+    {
+      "title": "Black Tie",
+      "date": "2023-05-25",
+      "location": "Bethel Church",
+      "time": "12:30",
+      "id": 2
     }
   ]
 }
