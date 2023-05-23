@@ -30,7 +30,7 @@ function Home() {
             <Link to="/register" className="nav-link">Create Account</Link>
             <Link to="/event-calendar" className="nav-link">Event Calendar</Link>
           </Nav>   
-          </Nav>      
+                
           <div className="NavbarCenter">
          <div className="searchbar">
          <Search className="searchIcon" />
