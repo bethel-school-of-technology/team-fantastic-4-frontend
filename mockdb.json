@@ -10,11 +10,11 @@
       "id": 1
     },
     {
-      "email": "test@gmail.com",
-      "password": "$2a$10$MggNuV5A/sDbMI2mDdHqL.iRPk1vUvm1l6XhwCtCB5qdl7HxvZnGe",
-      "firstName": "firstTest",
-      "lastName": "lastTest",
-      "age": "22",
+      "email": "jag@gmail.com",
+      "password": "$2a$10$IFRv6PHsuMaE.soswLAfVuBeAHiKkvnwhHXvPjN9E27e4ZSH3VtZG",
+      "firstName": "Justin",
+      "lastName": "Garvin",
+      "age": "31",
       "gender": "male",
       "id": 2
     }
@@ -31,6 +31,26 @@
       "location": "Bethel Church",
       "time": "12:30",
       "id": 2
+    },
+    {
+      "eventTitle": "Testing2",
+      "eventDate": "2023-05-24",
+      "eventTime": "12:30",
+      "eventLocation": "Here",
+      "eventPrice": "0",
+      "eventDescription": "This is fake!",
+      "eventImage": "puppy.jpg",
+      "id": 3
+    },
+    {
+      "eventTitle": "Testing3",
+      "eventDate": "2023-05-24",
+      "eventTime": "12:30",
+      "eventLocation": "Here",
+      "eventPrice": "0",
+      "eventDescription": "This is fake!",
+      "eventImage": "puppy.jpg",
+      "id": 4
     }
   ]
 }

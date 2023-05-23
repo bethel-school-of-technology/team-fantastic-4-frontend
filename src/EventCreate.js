@@ -21,7 +21,7 @@ import axios from 'axios';
 
     axios.post('http://localhost:3000/events', inputs)
         .then((response) => {
-          alert('login succesful')
+          alert('Event Created')
         
         });
   }
@@ -52,9 +52,6 @@ return (
         <Form.Control type="text" name="eventTitle" placeholder="Enter title"
           onChange={handleChange}
           required />
-        {/* <Form.Text className="text-muted">
-          We'll never share your email with anyone else.
-        </Form.Text> */}
       </Form.Group>
 
       <Form.Group className="mb-3" controlId="formBasicEmail">
@@ -62,9 +59,6 @@ return (
         <Form.Control type="date" name="eventDate" placeholder="Enter Date"
           onChange={handleChange}
           required />
-        {/* <Form.Text className="text-muted">
-          We'll never share your email with anyone else.
-        </Form.Text> */}
       </Form.Group>
 
       <Form.Group className="mb-3" controlId="formBasicEmail">
@@ -72,9 +66,6 @@ return (
         <Form.Control type="time" name="eventTime" placeholder="Enter Time"
           onChange={handleChange}
           required />
-        {/* <Form.Text className="text-muted">
-          We'll never share your email with anyone else.
-        </Form.Text> */}
       </Form.Group>
 
       <Form.Group className="mb-3" controlId="formBasicEmail">
@@ -82,9 +73,6 @@ return (
         <Form.Control type="text" name="eventLocation" placeholder="Enter Location"
           onChange={handleChange}
           required />
-        {/* <Form.Text className="text-muted">
-          We'll never share your email with anyone else.
-        </Form.Text> */}
       </Form.Group>
 
       <Form.Group className="mb-3" controlId="formBasicEmail">
@@ -92,9 +80,6 @@ return (
         <Form.Control type="number" name="eventPrice" placeholder="Enter Price"
           onChange={handleChange}
           required />
-        {/* <Form.Text className="text-muted">
-          We'll never share your email with anyone else.
-        </Form.Text> */}
       </Form.Group>
 
       <Form.Group className="mb-3" controlId="formBasicEmail">
@@ -102,9 +87,6 @@ return (
         <Form.Control type="text" name="eventDescription" placeholder="Enter Description"
           onChange={handleChange}
           required />
-        {/* <Form.Text className="text-muted">
-          We'll never share your email with anyone else.
-        </Form.Text> */}
       </Form.Group>
 
       <Form.Group className="mb-3" controlId="formBasicEmail">
@@ -112,18 +94,8 @@ return (
         <Form.Control type="text" name="eventImage" placeholder="Enter Image"
           onChange={handleChange}
           required />
-        {/* <Form.Text className="text-muted">
-          We'll never share your email with anyone else.
-        </Form.Text> */}
       </Form.Group>
 
-      {/* <Form.Group className="mb-3" controlId="formBasicPassword">
-        <Form.Label>Password</Form.Label>
-        <Form.Control onChange={handleChange} type="password" name="password" placeholder="Password" />
-      </Form.Group>
-      <Form.Group className="mb-3" controlId="formBasicCheckbox">
-        <Form.Check type="checkbox" label="Check me out" />
-      </Form.Group> */}
       <Button variant="primary" type="submit">Submit</Button>
 
     </Form>

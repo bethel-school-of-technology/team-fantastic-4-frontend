@@ -1,6 +1,10 @@
 import './Register.css';
 import { useState } from 'react';
 import axios from 'axios';
+import Home from "./Home";
+import Footer from "./Footer";
+import { Row, Col, Container} from "react-bootstrap"
+import { Link } from 'react-router-dom';
 
 
 
@@ -27,7 +31,9 @@ function Register() {
   
 
   return (
-    
+
+    <Container>
+    <Home></Home>
     <div className='register-background'>
     <div id="container">
     <form onSubmit={handleSubmit}>
@@ -101,10 +107,12 @@ function Register() {
         <input type="submit" />
         <br></br>
         <br></br>
-        <label>Already have an account? <u>Login</u></label>
+        <label>Already have an account? </label>
+        <Link to="/login" >Log In</Link>
     </form>
     </div>
     </div>
+    </Container>
   )
 }
 
